@@ -1,0 +1,205 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #fff;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 10px 0 10px;
+  font-size: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.subscription-1024 {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.container img {
+  width: 3.5rem;
+}
+
+.container .points {
+  border: 1px solid #333;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+
+.container .login {
+  background-color: #8a96a330;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 13%;
+    height: 100%;
+  }
+
+  .subscription-1024 {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 2.5rem;
+  }
+
+  .container img {
+    width: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+  }
+
+  .subscription-1024 {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 10px;
+    width: 30%;
+    height: 35%;
+    margin-left: 69%;
+    text-align: start;
+    background: transparent;
+    border: 2px solid #8a96a330;
+  }
+
+  .subscription-1024 .subscription-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #666666bc;
+  }
+
+  .subscription-1024 .subscription-offer {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .subscription-1024 .subscription-offerP {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .subscription-1024 .limited-offer {
+    display: flex;
+    align-items: center;
+    background-color: #99999929;
+    padding: 2px;
+    border-radius: 25px 10px 10px 25px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .subscription-1024 .limited-offer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .subscription-1024 .action-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .subscription-1024 .btn {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  .subscription-1024 .btn span {
+    padding-left: 4rem;
+  }
+
+  .subscription-1024 .btn:last-child {
+    margin-right: 0;
+  }
+
+  .subscription-1024 .price {
+    margin-top: 1rem;
+    border: 0;
+    text-align: start;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .container img {
+    width: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+  }
+
+  .subscription-1024 {
+    display: block;
+    width: 25%;
+    height: 32%;
+  }
+
+  .subscription-1024 .subscription-offer {
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .subscription-1024 .subscription-offerP {
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .subscription-1024 .btn span {
+    padding-left: 9.5rem;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .container img {
+    width: 5rem;
+  }
+}

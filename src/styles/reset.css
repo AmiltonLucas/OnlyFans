@@ -1,0 +1,52 @@
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  --bg-color: #fff;
+  --bg-color-header: #fff;
+  --text-color: #242529;
+  --overlay-color: rgba(0, 0, 0, .5);
+  --title-color: #242529;
+  --marked-color: #f6f7f8;
+}
+
+@font-face {
+  font-family: "font";
+  src: url(../fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  src: url(../fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  src: url(../fonts/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 1.6rem;
+  font-family: "font", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: none;
+}
